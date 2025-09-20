@@ -7,6 +7,7 @@ import About from './about';
 import Projects from './projects';
 import Blog from './blog'
 import BlogPost from './blog/BlogPost';
+import NotFound from './404';
 
 const items = [
   {
@@ -69,6 +70,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path='/blog' element={<Blog/>} />
         <Route path='/blog/:id' element={<BlogPost/>} />
+        <Route path='*' element={<NotFound/>} />
       </Routes>
 
     </Router>
