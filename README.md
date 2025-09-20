@@ -66,5 +66,3 @@ export default tseslint.config([
     },
   },
 ])
-```
-# personal-website
