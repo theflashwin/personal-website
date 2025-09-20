@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import BubbleMenu from './components/BubbleMenu'
 import './App.css'
 
@@ -45,10 +45,6 @@ const items = [
     hoverStyles: { bgColor: '#8b5cf6', textColor: '#ffffff' }
   }
 ];
-
-function Contact() {
-  return <h1>Contact Page</h1>
-}
 
 function App() {
 
