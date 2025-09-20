@@ -6,8 +6,8 @@ export default function Projects() {
         {
             image: '/projects/rush-app.png',
             link: 'https://github.com/gtakpsi-software-dev/gtakpsi-rush-app',
-            title: 'Rush App',
-            description: 'Applicant Tracking System | Rust, AWS, React'
+            title: 'GT AKPsi Rush App',
+            description: 'Full-Stack Applicant Tracking System | Rust, AWS, React'
         },
         {
             image: 'projects/git-parrot.png',
@@ -31,13 +31,13 @@ export default function Projects() {
             image: 'projects/poker-probs.jpeg',
             link: 'https://www.pokerprobs.io/',
             title: 'PokerProbs',
-            description: 'Improve Poker Probability Skills'
+            description: 'Improve Poker Probability Skills | React'
         },
         {
             image: 'projects/llm.jpeg',
             link: 'https://github.com/theflashwin/cs4644-final-project',
             title: 'LLM Tuning',
-            description: 'Context Distillation Based Tuning'
+            description: 'Context Distillation Based Tuning | PyTorch'
         },
     ];
 

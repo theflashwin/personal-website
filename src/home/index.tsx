@@ -56,11 +56,11 @@ export default function Home() {
 
                 {/* Subtitle */}
                 <p className="mt-6 text-lg md:text-2xl text-white/80 max-w-2xl leading-relaxed drop-shadow">
-                    CS + Math @ Georgia Tech | Incoming IMC Trading, Databricks
+                    CS + Math @ Georgia Tech
                 </p>
 
                 {/* Row of glass company icons */}
-                <div className="mt-8 flex space-x-6">
+                <div className="mt-8 flex flex-wrap justify-center gap-4 sm:gap-6">
                     {links.map((link) => (
                         <a
                             key={link.name}
